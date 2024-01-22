@@ -12,11 +12,12 @@ int main()
         cin >> x;
         st.insert(x);
     }
-    // for (auto i = st.begin(); i != st.end(); i++)
-    //     cout << *i << endl;
+    for (auto i = st.begin(); i != st.end(); i++)
+        cout << *i << endl;
     if (st.count(10))
         cout << "YES" << endl;
     else
         cout << "NO" << endl;
+    
     return 0;
 }
